@@ -18,6 +18,7 @@ public class GreetingController {
   @PostMapping("/greeting")
   public String greetingSubmit(@ModelAttribute Greeting greeting, Model model) {
     model.addAttribute("greeting", greeting);
+    System.out.println(greeting); // this should show whatever is put in the form hopefully
     return "result";
   }
 
