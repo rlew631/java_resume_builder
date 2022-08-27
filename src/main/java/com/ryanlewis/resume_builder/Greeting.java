@@ -1,24 +1,44 @@
 package com.ryanlewis.resume_builder;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public class Greeting {
 
-  private long id;
-  private String content;
+  private String name;
+  private String city;
+  private String state;
+  private String[] skills = {"GCP", "AWS", "Python"};
 
-  public long getId() {
-    return id;
+  public String getName() {
+    return name;
+  }
+  public void setName(String name) {
+    this.name = name;
   }
 
-  public void setId(long id) {
-    this.id = id;
+  public String getCity() {
+    return city;
+  }
+  public void setCity(String city) {
+    this.city = city;
   }
 
-  public String getContent() {
-    return content;
+  public String getState() {
+    return state;
+  }
+  public void setState(String state) {
+    this.state = state;
   }
 
-  public void setContent(String content) {
-    this.content = content;
+  public String[] getSkills() {
+    return skills;
+  }
+  public void setSkills(String[] skills) {
+    
+    // this.skills = skills;
+    String[] skill2 = {"GCP", "AWS", "Python"};
+    this.skills = skill2;
   }
 
 }

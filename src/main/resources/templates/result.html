@@ -6,8 +6,13 @@
 </head>
 <body>
 	<h1>Result</h1>
-    <p th:text="'id: ' + ${greeting.id}" />
-    <p th:text="'content: ' + ${greeting.content}" />
+    <p th:text="'name: ' + ${greeting.name}" />
+    <p th:text="'location: ' + ${greeting.city} + ' ' + ${greeting.state}" />
+    <tr>
+        <td>Skills: </td>
+        <td th:each="skill : ${greeting.skills}" th:text="${skill}" />
+    </tr>
+    <p/>
     <a href="/greeting">Submit another message</a>
 </body>
 </html>

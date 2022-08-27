@@ -7,6 +7,10 @@ currently just a sample website created using: https://spring.io/guides/gs/handl
 starting to follow this guide: https://www.baeldung.com/java-pdf-creation
 added the dependencies and nothing else yet
 
+# Iteratively generating HTML from a list 
+using Thymeleaf th:each
+https://education.launchcode.org/java-web-development/chapters/thymeleaf-views/template-iteration.html
+
 # File download capability
 added code from: https://www.javainuse.com/spring/boot-file-download to be able to download a pdf stored in the repo at http://localhost:8080/download/file/Ryan_Lewis_July_Resume.pdf
 
