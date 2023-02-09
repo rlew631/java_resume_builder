@@ -1,4 +1,7 @@
 # java_resume_builder
+
+-- update! Project dropped in favor of typescript version
+
 finding a way to make a resume PDF from json which is able to be parsed by tools like https://resume-parser.vercel.app/
 
 currently just a sample website created using: https://spring.io/guides/gs/handling-form-submission/
